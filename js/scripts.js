@@ -36,6 +36,16 @@ $(document).ready(function () {
         $(".card-mask").inputmask({
             mask: "9999-9999-9999-9999"
         });
+		
+        $(".data-mask").inputmask({
+            mask: "99.99.9999"
+        });
+		
+		$(".time-mask").inputmask({
+            mask: "99:99"
+        });
+		
+		
     }
     maskInit();
 

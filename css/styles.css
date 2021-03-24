@@ -94,6 +94,7 @@ textarea::-webkit-scrollbar {
 
 input {
     overflow: visible;
+	-webkit-appearance: none;
 }
 
 button {

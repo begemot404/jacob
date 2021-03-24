@@ -70,7 +70,7 @@
                             <div class="products-item-img">
 								<img srcset="images/products/prod_1.png 1x, images/products/prod_1@2x.png 2x" alt="">
                             </div>
-                            <div class="products-item-name">Кофе Jacobs Barista<br>Editions Crema в зернах <span>1000 г  /  230 г</span></div>
+                            <div class="products-item-name">Кофе Jacobs Barista<br>Editions Crema в зернах <span>1000 г / 230 г</span></div>
                         </div>
                         <div class="products-item">
                             <div class="products-item-img">
@@ -78,23 +78,23 @@
                             </div>
                             <div class="products-item-name">Кофе Jacobs Barista<br>Editions Espresso в зернах <span>1000 г</span></div>
                         </div>
-                        <div class="products-item">
+						<div class="products-item">
                             <div class="products-item-img">
-                                <img srcset="images/products/prod_3.png 1x, images/products/prod_3@2x.png 2x" alt="">
+                                <img srcset="images/products/prod_5.png 1x, images/products/prod_5@2x.png 2x" alt="">
                             </div>
-                            <div class="products-item-name">Кофе Jacobs Barista<br>Editions Crema молотый <span>230 г</span></div>
+                            <div class="products-item-name">Кофе Jacobs Expertenröstung<br> Espresso в зернах <span>1000 г / 230 г</span></div>
                         </div>
                         <div class="products-item">
                             <div class="products-item-img">
                                 <img srcset="images/products/prod_4.png 1x, images/products/prod_4@2x.png 2x" alt="">
                             </div>
-                            <div class="products-item-name">Кофе Jacobs Expertenröstung<br> Crema в зернах <span>1000г / 230 г</span></div>
+                            <div class="products-item-name">Кофе Jacobs Expertenröstung<br> Crema в зернах <span>1000 г / 230 г</span></div>
                         </div>
-                        <div class="products-item">
+						<div class="products-item">
                             <div class="products-item-img">
-                                <img srcset="images/products/prod_5.png 1x, images/products/prod_5@2x.png 2x" alt="">
+                                <img srcset="images/products/prod_3.png 1x, images/products/prod_3@2x.png 2x" alt="">
                             </div>
-                            <div class="products-item-name">Кофе Jacobs Expertenröstung<br> Espresso в зернах <span>1000 г / 230 г</span></div>
+                            <div class="products-item-name">Кофе Jacobs Barista<br>Editions Crema молотый <span>230 г</span></div>
                         </div>
                         <div class="products-item">
                             <div class="products-item-img">
@@ -112,7 +112,7 @@
                             <div class="products-item-img">
                                 <img srcset="images/products/prod_8.png 1x, images/products/prod_8@2x.png 2x" alt="">
                             </div>
-                            <div class="products-item-name">Кофе Jacobs Monarch<br>Классический в зернах <span>1000 г / 800 г  / 230 г</span></div>
+                            <div class="products-item-name">Кофе Jacobs Monarch<br>Классический в зернах <span>1000 г / 800 г / 230 г</span></div>
                         </div>
                         <div class="products-item">
                             <div class="products-item-img">
@@ -173,7 +173,7 @@
                 <button class="btn popup-btn">Войти</button>
             </div>
 </form>        <div class="reg-text">
-            Если вы впервые <br>на сайте, то вам необходимо
+            Если Вы впервые <br>на сайте, то вам необходимо
             <a href="#!" class="link popup-link pop-op" onclick="Reg();">Зарегистрироваться</a>
         </div>
     </div>
@@ -298,6 +298,22 @@
                     <div class="popup__desc" id="state">Этот чек уже был загружен ранее. Один чек можно загружать только один раз.</div>
                     <div class="btn-wrapper">
                         <a href="#!" class="btn popup-btn js-close-popup">Понятно</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<div id="check-state-ok" class="popup">
+            <div class="popup__wrap">
+                <div class="decor-left1 desktop-visible"></div>
+                <a href="#!" class="close-popup js-close-popup">
+                   <img src="images/close.svg" />
+                </a>
+                <div class="popup__inner">
+                    <div class="popup__title">Чек успешно загружен</div>
+                    <div class="popup__desc" id="state">Оставить отзыв, что бы увеличить свои шансы на выигрыш.</div>
+                    <div class="btn-wrapper">
+                        <a href="#!" class="btn popup-btn js-close-popup">Хорошо</a>
                     </div>
                 </div>
             </div>
@@ -439,11 +455,14 @@
 		</script>
 
 <script type="text/javascript">
+  function BillUpload() {OpenPopup('upload-bill-modal');}
+  
   function Login() {OpenPopup('form-authorization');}
   function Reg() {OpenPopup('form-reg');}
   function RegOk() {OpenPopup('reg-confirm-modal');}
   function Review() {OpenPopup('link-review');}
   function Check() {OpenPopup('check-state-modal');}
+  function CheckOk() {OpenPopup('check-state-ok');}
   function CheckEnter() {OpenPopup('check-enter');}
   function CoffeCheck() {OpenPopup('coffe-check');}
   function FormForgotpass() {OpenPopup('form-forgotpass');}
