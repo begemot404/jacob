@@ -26,7 +26,6 @@ $(document).ready(function () {
     $('.table-wrapper').scrollbar();
     $('.faq-wrap').scrollbar();
     $('.place-scroll').scrollbar();
-    $('.iframe-wrap').scrollbar();
 
     function maskInit() {
         $(".phone-mask").inputmask({
