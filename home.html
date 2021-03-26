@@ -18,8 +18,11 @@
     <link rel="stylesheet" href="libs/select2/select2.min.css">
     <link rel="stylesheet" href="libs/scrollbar/jquery.scrollbar.css">
     <link rel="stylesheet" href="css/styles.css">
-	<!--[if IE]>
-		<link type="text/css" rel="stylesheet" media="all" href="css/ie_style.css"/>
+	<!--[if lte IE 10]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ie10_style.css"/>
+	<![endif]-->
+	<!--[if lte IE 9]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ie9_style.css"/>
 	<![endif]-->
     <!--[if lte IE 9]>
     <script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script>
@@ -36,6 +39,7 @@
     <div class="menu">
         <a href="/" class="logo">
 			<img srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="">
+			<img class="ie" src="images/logo.png" alt="">
         </a>
         <a href="#!" class="burger"></a>
         <nav class="menu-links">
@@ -47,7 +51,7 @@
             <a href="#" class="menu-link login-link pop-op active" onclick="Login()">Личный кабинет</a>
         </nav>
 		
-		<div class="ex"><a href="#" class="menu-link login-link pop-op" onclick="Login()">Войти</a></div>
+		<div class="ex"><a href="#" class="menu-link login-link pop-op" onclick="Login()">Личный кабинет</a></div>
 		
     </div>
 </header>
@@ -72,6 +76,7 @@
             <div class="step step1">
                 <div class="step-img">
 					<img srcset="images/icon_1.png 1x, images/icon_1@2x.png 2x" alt="">
+					<img class="ie" src="images/icon_1.png" alt="">
                 </div>
                 <div class="step-title">ПОКУПАЙТЕ</div>
                 <div class="step-text">
@@ -81,6 +86,7 @@
             <div class="step step2">
                 <div class="step-img">
 					<img srcset="images/icon_2.png 1x, images/icon_2@2x.png 2x" alt="">
+					<img class="ie" src="images/icon_2.png" alt="">
                 </div>
                 <div class="step-title">РЕГИСТРИРУЙТЕ</div>
                 <div class="step-text">
@@ -90,6 +96,7 @@
             <div class="step step3">
                 <div class="step-img">
 					<img srcset="images/icon_3.png 1x, images/icon_3@2x.png 2x" alt="">
+					<img class="ie" src="images/icon_3.png" alt="">
                 </div>
                 <div class="step-title">ВЫИГРЫВАЙТЕ</div>
                 <div class="step-text">
@@ -115,6 +122,7 @@
 						<div class="review_icon"></div>
 					</div>
 					<img srcset="images/icon_4.png 1x, images/icon_4@2x.png 2x" alt="">
+					<img class="ie" src="images/icon_4.png" alt="">
                 </div>
                 <div class="step-title">Оставляйте<br> отзыв</div>
                 <div class="step-text">
@@ -137,6 +145,7 @@
                     <div class="prize prize1">
                         <div class="prize-img">
 							<img srcset="images/prize1.png 1x, images/prize1@2x.png 2x" alt="">
+							<img class="ie" src="images/prize1.png" alt="">
                         </div>
                         <div class="prize-title">ЕЖЕНЕДЕЛЬНЫЙ<br> приз</div>
                         <div class="prize-text">
@@ -146,6 +155,7 @@
                     <div class="prize prize2">
                         <div class="prize-img">
 							<img srcset="images/prize2.png 1x, images/prize2@2x.png 2x" alt="">
+							<img class="ie" src="images/prize2.png" alt="">
                         </div>
                         <div class="prize-title">ЕЖЕНЕДЕЛЬНЫЙ<br> приз</div>
                         <div class="prize-text">
@@ -154,7 +164,8 @@
                     </div> 
 					<div class="prize prize3">
                         <div class="prize-img">
-							<img srcset="images/prize3.png 1x, images/prize3@2x.png 2x" alt="">            
+							<img srcset="images/prize3.png 1x, images/prize3@2x.png 2x" alt="">
+							<img class="ie" src="images/prize3.png" alt="">							
                         </div>
                         <div class="prize-title">Ежедневный<br> приз</div>
                         <div class="prize-text">
@@ -164,6 +175,7 @@
 					<div class="prize prize4">
                         <div class="prize-img">
 							<img srcset="images/prize4.png 1x, images/prize4@2x.png 2x" alt="">
+							<img class="ie" src="images/prize4.png" alt="">
                         </div>
                         <div class="prize-title">гарантированный<br> приз</div>
                         <div class="prize-text">

@@ -1,3 +1,5 @@
+.ie {display: none;}
+
 html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -742,6 +744,14 @@ header ~ .inner-page-top {
     background: url(../images/login-icon.svg) center no-repeat;
     background-size: contain;
 }
+.unlogin .login-link::before {
+	background:transparent;	
+}
+.unlogin .login-link {
+	    padding: 10px 20px 10px 20px;
+}
+
+.unlogin {width:auto!important;}
 .menu-links .login-link {display:none;}
 .ex {
     width: 98px;
@@ -2141,7 +2151,7 @@ header ~ .inner-page-top {
 }
 
 .ex {
-    width: 98px;
+    width: 155px;
     position: absolute;
     top: 11px;
     right: -12px;
