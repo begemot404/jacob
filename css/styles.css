@@ -5247,6 +5247,7 @@ table td:nth-child(3) {
     .prizes-block::before {
         height: 1900px;
         background-size: 100% 100%;
+		display:none;
     }
 
     .prizes-title {
@@ -5313,6 +5314,7 @@ table td:nth-child(3) {
         width: 324px;
         height: 192px;
         background-size: contain;
+        display: none;
     }
 
     .main-decor4 {
@@ -5441,7 +5443,13 @@ header {border-bottom:2px solid #B28D3C;}
 
 .products-item {float:left;width:33%;margin: 30px 0;height:285px}
 .products-item-img img {display:none;}
-.products-item-img img.ie {display:block;margin:0 auto;}
-
+.products-item-img img.ie {display:block;}
+.lk-table-wrapper .btn-wrapper {left:0px;top:400px;}
+.profile-name {background:transparent;color:#B28D3C;}
+.lk-prizes_name {background:transparent;color:#B28D3C;}
+.garant .title {background:transparent;}
+.title {background:transparent;}
 .search {background-color:#B28D3C; background-image:url(../images/search.svg);background-position: center;background-repeat: no-repeat;}
+.products-item-img img:nth-child(1) {display:none;}
+.date-filter .select select {height:44px!important;width:180px!important;text-align:center;position:relative!important;border-radius:23px;}
      }
