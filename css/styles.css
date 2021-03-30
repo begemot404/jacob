@@ -2834,7 +2834,8 @@ span.error {
     font-size: 21px;
     line-height: 20px;
     position: absolute;
-    top: 50px;
+    top: 0px;
+    width: 285px;
 }
 
 .superwinner-title {
@@ -3448,7 +3449,7 @@ table td:nth-child(3) {
     display: flex;
     flex-direction: column;
 }
-
+.profile-exit {text-align:center;margin-bottom:50px;text-transform:uppercase;font-size: 14px;}
 .profile-name {
     font-weight: 900;
     font-size: 21px;
@@ -3461,7 +3462,7 @@ table td:nth-child(3) {
     -webkit-text-fill-color: transparent;
     font-family: 'Gotham Pro Bold';
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .profile-name span {
@@ -4992,12 +4993,12 @@ table td:nth-child(3) {
     .profile-row {
         flex-direction: column;
     }
-
+.profile-exit {margin-bottom:0px}
     .profile-name {
         font-size: 21px;
         line-height: 28px;
         min-height: auto;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .profile-name span {
