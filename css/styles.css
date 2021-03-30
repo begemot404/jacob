@@ -5401,3 +5401,47 @@ table td:nth-child(3) {
 @media (max-width: 320px) {
     
 }
+
+/* IE */
+@media all and (-ms-high-contrast:none)
+     {
+     .ie {display: block;}
+
+.wrapper {background:#13381D;}
+.active.menu-link, .menu-link:hover {background: #B28D3C;} 
+.step-title {
+    background: transparent;
+    color: #FFE686;
+    -webkit-text-fill-color: #FFE686;
+	font-size:17px;
+}
+
+.step-img img:nth-child(1) {display:none;}
+.step4 .step-img img:nth-child(2) {display:none;}
+.step-text {font-size:14px;}
+
+.review_text_inner {border:5px solid #B28D3C;}
+
+.prize {max-width:25%;width:22%;margin: 0px 1%;display:inline-table;}
+.step {max-width:25%;width:22%;margin: 0px 1%;display:inline-table;}
+.prizes-title {background:transparent;}
+.prize-title {background:transparent;color:#ffe686;}
+.review_text {background:transparent;}
+.step-text span {color:#ffe686;background:transparent;}
+header {border-bottom:2px solid #B28D3C;} 
+
+.menu-links {position:relative;top:0px;}
+
+.logo {top:-20px;} 
+
+.ex a {background:#B28D3C;padding-left:30px;}
+.ex {top:10px;}
+
+.winners-table {overflow:auto;}
+
+.products-item {float:left;width:33%;margin: 30px 0;height:285px}
+.products-item-img img {display:none;}
+.products-item-img img.ie {display:block;margin:0 auto;}
+
+.search {background-color:#B28D3C; background-image:url(../images/search.svg);background-position: center;background-repeat: no-repeat;}
+     }
