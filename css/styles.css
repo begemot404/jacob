@@ -2886,17 +2886,6 @@ span.error {
     height: 36px;
 }
 
-.superwinner-slider .slick-prev {
-    left: 0;
-    background: url(../img/arrow-left.svg) center no-repeat;
-    background-size: contain;
-}
-
-.superwinner-slider .slick-next {
-    right: 0;
-    background: url(../img/arrow-right.svg) center no-repeat;
-    background-size: contain;
-}
 
 .winners-title {
     font-weight: 900;
@@ -3226,7 +3215,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 218px;
     height: 50px;
-    background: url(../img/plus-products.svg) center right no-repeat;
     background-size: contain;
     font-weight: 300;
     font-size: 18px;
@@ -3316,17 +3304,6 @@ table td:nth-child(3) {
     height: 36px;
 }
 
-.products-list .slick-prev {
-    left: 0;
-    background: url(../img/arrow-left.svg) center no-repeat;
-    background-size: contain;
-}
-
-.products-list .slick-next {
-    right: 0;
-    background: url(../img/arrow-right.svg) center no-repeat;
-    background-size: contain;
-}
 
 .faq-container {
     position: relative;
@@ -3572,7 +3549,6 @@ table td:nth-child(3) {
     width: 92px;
     height: 75body .scroll-element .scroll-barpx;
     margin: auto;
-    background: url(../img/card.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3837,7 +3813,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 118px;
     height: 69px;
-    background: url(../img/lk-decor1.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3849,7 +3824,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 219px;
     height: 224px;
-    background: url(../img/lk-decor2.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3859,7 +3833,6 @@ table td:nth-child(3) {
     right: -41px;
     width: 75px;
     height: 63px;
-    background: url(../img/lk-decor3.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3869,7 +3842,6 @@ table td:nth-child(3) {
     right: 80px;
     width: 62px;
     height: 60px;
-    background: url(../img/lk-decor4.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3881,7 +3853,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 457px;
     height: 573px;
-    background: url(../img/lk-decor5.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3893,7 +3864,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 402px;
     height: 590px;
-    background: url(../img/lk-decor6.png) center no-repeat;
     background-size: contain;
 }
 
@@ -3989,7 +3959,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 433px;
     height: 422px;
-    background: url(../img/bob.png) center no-repeat;
     background-size: contain;
     mix-blend-mode: lighten;
     z-index: 0;
@@ -4026,14 +3995,11 @@ table td:nth-child(3) {
 
 .boxes-slider .slick-prev {
     left: 0;
-    background: url(../img/arrow-left-boxes.svg) center no-repeat;
     background-size: contain;
 }
 
 .boxes-slider .slick-next {
-    right: 0;
-    background: url(../img/arrow-right-boxes.svg) center no-repeat;
-    background-size: contain;
+    right: 0;    background-size: contain;
 }
 
 .main-block {
@@ -4088,7 +4054,6 @@ table td:nth-child(3) {
     margin: auto;
     width: 118px;
     height: 125px;
-    background: url(../img/inst-label.png) center no-repeat;
     background-size: contain;
 }
 
@@ -4493,13 +4458,11 @@ table td:nth-child(3) {
 
 .places-slider .slick-prev {
     left: 0;
-    background: url(../img/arrow-left-white.svg) center no-repeat;
     background-size: contain;
 }
 
 .places-slider .slick-next {
     right: 0;
-    background: url(../img/arrow-right-white.svg) center no-repeat;
     background-size: contain;
 }
 
@@ -4660,7 +4623,7 @@ table td:nth-child(3) {
         right: 0;
         width: 100px;
         height: 82px;
-        background: url(../img/ex-magnit-mob.svg) center no-repeat;
+
         background-size: contain;
         z-index: 11;
     }
@@ -4889,7 +4852,7 @@ table td:nth-child(3) {
         left: auto;
         right: 15px;
         bottom: auto;
-        background: url(../img/close-menu.svg) center no-repeat;
+
         background-size: contain;
     }
 
@@ -5112,7 +5075,6 @@ table td:nth-child(3) {
         right: auto;
         width: 34px;
         height: 69px;
-        background: url(../img/lk-decor1-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5122,7 +5084,6 @@ table td:nth-child(3) {
         right: -300px;
         width: 29px;
         height: 28px;
-        background: url(../img/lk-decor2-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5134,7 +5095,6 @@ table td:nth-child(3) {
         margin: auto;
         width: 70px;
         height: 70px;
-        background: url(../img/lk-decor3-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5145,7 +5105,6 @@ table td:nth-child(3) {
         right: 0;
         width: 130px;
         height: 222px;
-        background: url(../img/lk-decor4-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5155,7 +5114,6 @@ table td:nth-child(3) {
         right: -150px;
         width: 553px;
         height: 474px;
-        background: url(../img/lk-decor5-mob.png) center no-repeat;
         background-size: 553px;
     }
 
@@ -5206,7 +5164,6 @@ table td:nth-child(3) {
 
     .main-block {
         min-height: 630px;
-        background: url(../img/bg-main-mob.jpg) center -330px no-repeat;
         background-size: 100% 1005px;
     }
 
@@ -5263,7 +5220,6 @@ table td:nth-child(3) {
     .steps-block::before {
         top: -40px;
         height: 1250px;
-        background: url(../img/bg-main2-mob.png) center 0 no-repeat;
         background-size: 100% 100%;
     }
 
@@ -5290,7 +5246,6 @@ table td:nth-child(3) {
 
     .prizes-block::before {
         height: 1900px;
-        background: url(../img/bg-prizes-mob.jpg) center 0 no-repeat;
         background-size: 100% 100%;
     }
 
@@ -5332,7 +5287,6 @@ table td:nth-child(3) {
         margin: auto;
         width: 379px;
         height: 177px;
-        background: url(../img/main-decor01-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5341,7 +5295,6 @@ table td:nth-child(3) {
         left: -210px;
         width: 182px;
         height: 196px;
-        background: url(../img/main-decor1-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5350,7 +5303,6 @@ table td:nth-child(3) {
         right: -320px;
         width: 72px;
         height: 142px;
-        background: url(../img/main-decor2-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5360,7 +5312,6 @@ table td:nth-child(3) {
         right: -50px;
         width: 324px;
         height: 192px;
-        background: url(../img/main-decor3-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5370,7 +5321,6 @@ table td:nth-child(3) {
         right: 0;
         width: 93px;
         height: 228px;
-        background: url(../img/main-decor4-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5380,7 +5330,6 @@ table td:nth-child(3) {
         right: -310px;
         width: 75px;
         height: 91px;
-        background: url(../img/main-decor5-mob.png) center no-repeat;
         background-size: contain;
     }
 
@@ -5392,7 +5341,6 @@ table td:nth-child(3) {
         margin: auto;
         width: 86px;
         height: 98px;
-        background: url(../img/main-decor6-mob.png) center no-repeat;
         background-size: contain;
     }
 
