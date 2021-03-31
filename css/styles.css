@@ -5066,7 +5066,7 @@ table td:nth-child(3) {
         display: table;
         width: 985px;
     }
-.garant:before {content:'';background: transparent;display:table;width: 200px;height: 400px;position: absolute;left: 44px;z-index: 200;}
+.garant:before {content:'';background: transparent;display:table;width: 200px;height: 400px;position: absolute;left: 44px;z-index: 200;} 
     .lk-table-wrapper {
         margin-bottom: 120px;
         padding: 60px 15px 50px;
