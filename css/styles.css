@@ -3672,7 +3672,11 @@ table td:nth-child(3) {
 .lk-table .check-preview {
     width: 44px;
     height: 44px;
+
 }
+
+.review-box-list .lk-table .check-preview {    margin-right:0px!important;
+    border: 0px!important;}
 
 .lk-prizes-slider {
     max-width: 570px;
@@ -3680,7 +3684,8 @@ table td:nth-child(3) {
     user-select: auto;
 }
 
-.lk-prizes_img {margin: 0 auto;display: table;}
+.lk-prizes_img {margin: 0 auto;display: table;height: 225px;overflow:hidden;}
+.lk-prizes_img img {height: auto;}
 .lk-prizes_name {
     font-family: 'Gotham Pro Bold';
     text-align: center;
@@ -3732,7 +3737,7 @@ table td:nth-child(3) {
 }
 .check-review.rejected {position:relative;}
 .review-box-list tr th:nth-child(1) {padding-left:30px}
-.review-box-list tr td:nth-child(1) {padding-left:30px}
+.review-box-list tr td:nth-child(1) {padding-right: 0px;min-width: 44px;}
 .review-box-list tbody tr {height:70px;}
 .check-review.rejected::after {
     content: '!';
@@ -5538,25 +5543,5 @@ header {border-bottom:2px solid #B28D3C;}
 .products-item-img img:nth-child(1) {display:none;}
 .slick-slide img.ie {display:block!important;}
      
-	 
-.check-preview.rejected:after {
-    content: '!';
-    position: absolute;
-    top: 23px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 23px;
-    height: 23px;
-    margin: auto;
-    border-radius: 50px;
-    background: #EB2316;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-}
+
 	 }
