@@ -464,7 +464,7 @@ body .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
 .slick-slide img {
     display: block;
 }
-
+.slick-slide img.ie {display:none!important;}
 .slick-slide.slick-loading img {
     display: none;
 }
@@ -4732,8 +4732,10 @@ table td:nth-child(3) {
 	.inner-page {
 		padding: 30px 0 50px;
 	}
-    .lk-page .container {overflow-y: scroll;
-    min-height: 600px;}
+    .lk-page .container {
+    overflow-y: scroll;
+    min-height: 650px;
+    }
 	.winners-page {
         padding-top: 100px;
     }
@@ -5061,15 +5063,25 @@ table td:nth-child(3) {
     .lk-wrapper {
         margin: 50px auto 0;
         max-width: 1100px;
+        display: table;
+        width: 985px;
     }
 
     .lk-table-wrapper {
-        margin-bottom: 50px;
+        margin-bottom: 120px;
         padding: 60px 15px 50px;
-        margin-right: 20px;
+        margin-right: 0px;
         margin-left: 20px;
-        min-width: 312px;
+        min-width: 274px;
+        width: 300px;
+        height: 400px;
+        float: left;
     }
+
+    .lk-table-wrapper .btn-wrapper {
+    position: absolute;
+    top: 415px;
+}
 
     .lk-table-wrapper:nth-child(2) {
         padding-bottom: 20px;
@@ -5293,6 +5305,18 @@ table td:nth-child(3) {
     .prize3 {
         margin-bottom: 40px;
     }
+    .prize1 .prize-text:after {
+        content: '*Внешний вид вручаемой кофемашины, может отличаться от изображения на рекламных материалах';
+        font-size: 8px;
+        line-height: 11px;
+        width: 230px;
+        position: relative;
+        top: 10px;
+        right: auto;
+        left:50%;
+        margin-left:-115px;
+        display:table;
+}
 
     .prize3 .prize-img {
         height: 217px;
