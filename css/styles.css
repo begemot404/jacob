@@ -5512,4 +5512,5 @@ header {border-bottom:2px solid #B28D3C;}
 .title {background:transparent;text-shadow:0px 4px 10px rgba(0, 0, 0, 0.5);} 
 .search {background-color:#B28D3C; background-image:url(../images/search.svg);background-position: center;background-repeat: no-repeat;}
 .products-item-img img:nth-child(1) {display:none;}
+.slick-slide img.ie {display:block!important;}
      }
