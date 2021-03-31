@@ -2306,6 +2306,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Gotham Pro Black';
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
 }
 
 .popup {
@@ -3361,6 +3362,7 @@ table td:nth-child(3) {
     line-height: 20px;
     padding: 20px 0 0 36px;
 }
+.faq-item-text a {text-decoration:underline;}
 
 .feedback-wrap {
 	position: relative;
@@ -4115,6 +4117,7 @@ table td:nth-child(3) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Gotham Pro Bold';
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
 }
 
 .step-text {
@@ -4168,6 +4171,7 @@ table td:nth-child(3) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Gotham Pro Black';
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
 }
 .main-decor3 {content:'';position: absolute;top: -24px;background: url(../images/coffe_left.png);width: 196px;height: 150px;display: table;}
 .main-decor4 {content:'';position: absolute;right: 0px;top: -92px;background: url(../images/coffe_right.png);width: 161px;height: 279px;display: table;}
@@ -4294,6 +4298,7 @@ table td:nth-child(3) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Gotham Pro Black';
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
 }
 
 .prize-text {
@@ -5453,7 +5458,7 @@ table td:nth-child(3) {
 /* IE */
 @media all and (-ms-high-contrast:none)
      {
-		 .review_text_title {background:transparent;color:#b28d3c;}
+		 .review_text_title {background:transparent;color:#b28d3c;text-shadow:0px 4px 10px rgba(0, 0, 0, 0.5);}
 		 .feedback-title {font-size:22px;}
      .ie {display: block;}
 .popup__title {background: transparent; color:#b28d3c;}
@@ -5464,6 +5469,7 @@ table td:nth-child(3) {
     color: #FFE686;
     -webkit-text-fill-color: #FFE686;
 	font-size:17px;
+	text-shadow:0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .step-img img:nth-child(1) {display:none;}
@@ -5495,8 +5501,8 @@ header {border-bottom:2px solid #B28D3C;}
 .lk-table-wrapper .btn-wrapper {left:0px;top:400px;}
 .profile-name {background:transparent;color:#B28D3C;}
 .lk-prizes_name {background:transparent;color:#B28D3C;}
-.garant .title {background:transparent;}
-.title {background:transparent;} 
+.garant .title {background:transparent;text-shadow:0px 4px 10px rgba(0, 0, 0, 0.5);}
+.title {background:transparent;text-shadow:0px 4px 10px rgba(0, 0, 0, 0.5);} 
 .search {background-color:#B28D3C; background-image:url(../images/search.svg);background-position: center;background-repeat: no-repeat;}
 .products-item-img img:nth-child(1) {display:none;}
      }
