@@ -2839,6 +2839,29 @@ span.error {
     width: 285px;
 }
 
+.check-after:after {
+    content:'';
+    position: absolute;
+    bottom: -120px;
+    left: -145px;
+    width: 516px;
+    height: 426px;
+    background: url(../images/popup.png) center no-repeat;
+    background-size: contain;
+    z-index: -1;
+    }
+.garant:after {
+    content:'';
+    position: absolute;
+    top: -120px;
+    right: -136px;
+    width: 516px;
+    height: 426px;
+    background: url(../images/popup.png) center no-repeat;
+    background-size: contain;
+    z-index: -1;
+    } 
+
 .superwinner-title {
     font-weight: 500;
     font-size: 21px;
@@ -5098,7 +5121,8 @@ table td:nth-child(3) {
     .lk-table-wrapper:nth-child(2) {
         padding-bottom: 20px;
     }
-
+	.check-after:after {display:none;}
+.garant:after {display:none;}
     .lk-title {
         max-width: 230px;
     }
