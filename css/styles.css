@@ -4138,6 +4138,13 @@ table td:nth-child(3) {
     -webkit-text-fill-color: transparent;
 }
 
+.otzovik {font-weight: 500;
+    background: linear-gradient(
+235.93deg
+, #ddbb58 16.19%, #FFE686 63.74%, #ddbb58 106.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
+
 .prizes-block {
     position: relative;
     min-height: 550px;
@@ -5485,7 +5492,7 @@ table td:nth-child(3) {
 .review_text {background:transparent;}
 .step-text span {color:#ffe686;background:transparent;}
 header {border-bottom:2px solid #B28D3C;} 
-
+.otzovik {background:transparent;color:#ffe686;}
 .menu-links {position:relative;top:0px;}
 
 .logo {top:-20px;} 
