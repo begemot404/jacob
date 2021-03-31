@@ -4018,6 +4018,7 @@ table td:nth-child(3) {
     background: url(../images/jacobs.png) center 0 no-repeat;
     animation: 6s varnava infinite steps(1, end);
 }
+.kv:after {content:'*Внешний вид вручаемой кофемашины, может отличаться от изображения на рекламных материалах';font-size: 8px;line-height: 11px;width: 116px;position: absolute;bottom: 250px;right: 0px;}
 
 .action-info {
     max-width: 420px;
@@ -4234,6 +4235,15 @@ table td:nth-child(3) {
     z-index: 2;
 }
 
+.prize1 .prize-img:after {
+        content: '*Внешний вид вручаемой кофемашины, может отличаться от изображения на рекламных материалах';
+        font-size: 8px;
+        line-height: 11px;
+        width: 116px;
+        position: absolute;
+        top: 40px;
+        right: -88px;
+}
 
 .prize1 .prize-img img {
     position: absolute;
@@ -5178,6 +5188,18 @@ table td:nth-child(3) {
         background-repeat: no-repeat;
         background-position: 50% 0;
     }
+    .kv:after {
+    text-align: center;
+    content: '*Внешний вид вручаемой кофемашины, может отличаться от изображения на рекламных материалах';
+    font-size: 8px;
+    line-height: 11px;
+    width: 230px;
+    position: absolute;
+    bottom: 180px;
+    right: auto;
+    left: 50%;
+    margin-left: -115px;
+}
 .action-dates {display:none;}
     .action-info {
         display: flex;
