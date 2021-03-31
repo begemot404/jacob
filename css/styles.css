@@ -3252,15 +3252,15 @@ table td:nth-child(3) {
     justify-content: space-between;
 }
 
-.products-list .products-item:nth-child(1) img {height: 162px;}
-.products-list .products-item:nth-child(2) img {height: 182px;}
-.products-list .products-item:nth-child(3) img {height: 209px;}
-.products-list .products-item:nth-child(4) img {height: 160px;}
-.products-list .products-item:nth-child(5) img {height: 209px;}
-.products-list .products-item:nth-child(6) img {height: 204px;}
-.products-list .products-item:nth-child(7) img {height: 183px;}
-.products-list .products-item:nth-child(8) img {height: 183px;}
-.products-list .products-item:nth-child(9) img {height: 194px;}
+.products-list .products-item:nth-child(1) img {height: auto;width: 92px;}
+.products-list .products-item:nth-child(2) img {height: auto;width: 116px;}
+.products-list .products-item:nth-child(3) img {height: auto;width: 114px;}
+.products-list .products-item:nth-child(4) img {height: auto;width: 90px;}
+.products-list .products-item:nth-child(5) img {height: auto;width: 129px;}
+.products-list .products-item:nth-child(6) img {height: auto;width: 144px;}
+.products-list .products-item:nth-child(7) img {height: auto;width: 119px;}
+.products-list .products-item:nth-child(8) img {height: auto;width: 119px;}
+.products-list .products-item:nth-child(9) img {height: auto;width: 126px;}
 
 .products-item {
     max-width: 286px;
@@ -4036,7 +4036,7 @@ table td:nth-child(3) {
     width: 548px;
     height: 197px;
     background: url(../images/kv-text.png) center no-repeat;
-    background-position: 0px 10px;
+    background-position: -10px 10px;
     background-size: auto;
     margin-bottom: 5px;
 }
@@ -5407,9 +5407,11 @@ table td:nth-child(3) {
 /* IE */
 @media all and (-ms-high-contrast:none)
      {
+		 .review_text_title {background:transparent;color:#b28d3c;}
+		 .feedback-title {font-size:22px;}
      .ie {display: block;}
-
-.wrapper {background:#13381D;}
+.popup__title {background: transparent; color:#b28d3c;}
+.wrapper {background-color:#13381D; background-image: url(../images/ie.jpg);background-repeat: no-repeat; background-position:50%; }
 .active.menu-link, .menu-link:hover {background: #B28D3C;} 
 .step-title {
     background: transparent;
@@ -5451,5 +5453,4 @@ header {border-bottom:2px solid #B28D3C;}
 .title {background:transparent;}
 .search {background-color:#B28D3C; background-image:url(../images/search.svg);background-position: center;background-repeat: no-repeat;}
 .products-item-img img:nth-child(1) {display:none;}
-.date-filter .select select {height:44px!important;width:180px!important;text-align:center;position:relative!important;border-radius:23px;}
      }
