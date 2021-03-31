@@ -3710,7 +3710,7 @@ table td:nth-child(3) {
     border-radius: 50px;
 }
 
-.check-preview.rejected::after {
+.check-preview.rejected:after {
     content: '!';
     position: absolute;
     top: 0;
@@ -5537,4 +5537,26 @@ header {border-bottom:2px solid #B28D3C;}
 .search {background-color:#B28D3C; background-image:url(../images/search.svg);background-position: center;background-repeat: no-repeat;}
 .products-item-img img:nth-child(1) {display:none;}
 .slick-slide img.ie {display:block!important;}
-     }
+     
+	 
+.check-preview.rejected:after {
+    content: '!';
+    position: absolute;
+    top: 23px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 23px;
+    height: 23px;
+    margin: auto;
+    border-radius: 50px;
+    background: #EB2316;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+	 }
