@@ -287,6 +287,7 @@
                     <div class="input-field">
                         <textarea name="Message" id="mes" placeholder="Текст сообщения" required=""></textarea>
                     </div>
+					 
                     <div class="feedback-desc">Введите символы с картинки</div>
                     <div class="captcha-wrap mb20">
                         <div class="popup__error" id="captcha_error"></div>
@@ -298,6 +299,13 @@
                             <input type="text" name="Captcha" required="">
                         </div>
                     </div>
+					<div class="input-field checkbox-field">
+                    <label for="check-data" class="checkbox">
+                        <input id="check-data" name="check-data" type="checkbox" required="">
+                        <span class="checkmark"></span>
+                        <span class="checkbox-text">Я согласен на обработку моих <a href="/Rules/Согласие.pdf" class="rules-link link" target="_blank">персональных данных</a></span>
+                    </label>
+                </div>
                     <div class="btn-wrapper">
                         <button class="btn" id="myBtn">Отправить</button>
                     </div>
